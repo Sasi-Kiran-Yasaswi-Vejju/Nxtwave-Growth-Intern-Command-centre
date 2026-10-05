@@ -9,7 +9,7 @@
 ## Part 1: Executive 2-Page Growth Plan
 
 ### 1. Target Audience & Student Insight
-- **Primary ICP (Ideal Customer Profile)**: Final-year engineering students (Batch 2025/2026 across CSE, IT, ECE, EEE, Mechanical, Civil) preparing for on-campus and off-campus placements.
+- **Primary ICP (Ideal Customer Profile)**: Final-year engineering students (2027 Passing Out across CSE, IT, ECE, EEE, Mechanical, Civil) preparing for on-campus and off-campus placements.
 - **Core Frustration & Pain Point**:
   - The "Resume Duplication Crisis": Over 90% of engineering student resumes contain the exact same copied tutorial projects (Iris flower classification, Titanic survival prediction, or basic Todo apps).
   - Hiring managers and tech recruiters review candidate resumes in under 15 seconds and instantly discount these generic projects.
@@ -107,7 +107,7 @@ SLIDE 1: THE STUDENT INSIGHT & VALUE PIVOT
 TITLE: "Beyond the Generic Tutorial: Solving the Placement Resume Crisis"
 
 WHO WE TARGET:
-• Final-year engineering students (Batch 2025/2026) across Tier 1, 2, and 3 colleges.
+• Final-year engineering students (2027 Passing Out) across Tier 1, 2, and 3 colleges.
 • Know syntax and basic Python, but lack a credible, differentiated AI project.
 
 THE UNCOMFORTABLE TRUTH:

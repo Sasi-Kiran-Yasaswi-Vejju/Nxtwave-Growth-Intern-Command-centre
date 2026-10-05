@@ -51,11 +51,11 @@ VALUES
 -- 3. Seed Top Registrations & Campus Referrers
 INSERT INTO registrations (registration_code, name, email, whatsapp, college, branch, graduation_year, source, referral_code, referral_count, is_simulated)
 VALUES
-('REG-1001', 'Yasaswi Sharma', 'yasaswi.s@student.jntuh.ac.in', '+919848012345', 'JNTU Hyderabad', 'Computer Science and Engineering', 2025, 'Campus Tech Clubs & Leads', 'YASASWI42', 27, TRUE),
-('REG-1002', 'Rahul K. Varma', 'rahul.varma@osmania.ac.in', '+919440156789', 'Osmania University', 'Electronics and Communication', 2025, 'College WhatsApp Communities', 'RAHUL99', 21, TRUE),
-('REG-1003', 'Sneha Patel', 'sneha.patel@cbit.org.in', '+919989034567', 'CBIT Hyderabad', 'Information Technology', 2025, 'College WhatsApp Communities', 'SNEHA18', 18, TRUE),
-('REG-1004', 'Aditya Nair', 'aditya.nair@vnrvjiet.in', '+919701245678', 'VNR VJIET', 'Computer Science and Engineering', 2025, 'Student Referral Engine', 'ADITYA15', 15, TRUE),
-('REG-1005', 'Pooja Reddy', 'pooja.r@srmist.edu.in', '+919618089012', 'SRM Institute of Tech', 'Data Science & AI', 2025, 'Student Referral Engine', 'POOJA13', 13, TRUE),
-('REG-1006', 'Karthik S.', 'karthik.s@vit.ac.in', '+919876543210', 'Vellore Institute of Technology', 'Computer Science and Engineering', 2025, 'Campus Tech Clubs & Leads', 'KARTHIK10', 10, TRUE),
-('REG-1007', 'Divya Iyer', 'divya.iyer@psgtech.ac.in', '+919845098765', 'PSG College of Technology', 'Electronics and Communication', 2025, 'College WhatsApp Communities', 'DIVYA08', 8, TRUE),
-('REG-1008', 'Manish Gupta', 'manish.gupta@bmsce.ac.in', '+919123456780', 'BMS College of Engineering', 'Information Science', 2025, 'Organic Social / LinkedIn Tech Posts', 'MANISH06', 6, TRUE);
+('REG-1001', 'Yasaswi Sharma', 'yasaswi.s@student.jntuh.ac.in', '+919848012345', 'JNTU Hyderabad', 'Computer Science and Engineering', 2027, 'Campus Tech Clubs & Leads', 'YASASWI42', 27, TRUE),
+('REG-1002', 'Rahul K. Varma', 'rahul.varma@osmania.ac.in', '+919440156789', 'Osmania University', 'Electronics and Communication', 2027, 'College WhatsApp Communities', 'RAHUL99', 21, TRUE),
+('REG-1003', 'Sneha Patel', 'sneha.patel@cbit.org.in', '+919989034567', 'CBIT Hyderabad', 'Information Technology', 2027, 'College WhatsApp Communities', 'SNEHA18', 18, TRUE),
+('REG-1004', 'Aditya Nair', 'aditya.nair@vnrvjiet.in', '+919701245678', 'VNR VJIET', 'Computer Science and Engineering', 2027, 'Student Referral Engine', 'ADITYA15', 15, TRUE),
+('REG-1005', 'Pooja Reddy', 'pooja.r@srmist.edu.in', '+919618089012', 'SRM Institute of Tech', 'Data Science & AI', 2027, 'Student Referral Engine', 'POOJA13', 13, TRUE),
+('REG-1006', 'Karthik S.', 'karthik.s@vit.ac.in', '+919876543210', 'Vellore Institute of Technology', 'Computer Science and Engineering', 2027, 'Campus Tech Clubs & Leads', 'KARTHIK10', 10, TRUE),
+('REG-1007', 'Divya Iyer', 'divya.iyer@psgtech.ac.in', '+919845098765', 'PSG College of Technology', 'Electronics and Communication', 2027, 'College WhatsApp Communities', 'DIVYA08', 8, TRUE),
+('REG-1008', 'Manish Gupta', 'manish.gupta@bmsce.ac.in', '+919123456780', 'BMS College of Engineering', 'Information Science', 2027, 'Organic Social / LinkedIn Tech Posts', 'MANISH06', 6, TRUE);

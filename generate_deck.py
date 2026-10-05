@@ -69,11 +69,11 @@ s1 = prs.slides.add_slide(blank_layout)
 set_slide_background(s1)
 add_header(s1, 'Slide 1 | Student Insight & Value Proposition', 
            'Beyond Generic Tutorials: Solving the Placement Resume Crisis',
-           'Target: 500 Final-Year Engineers (Batch 2025/2026) | 7-Day Sprint | Budget: ₹2,000')
+           'Target: 500 Engineering Students (2027 Passing Out) | 7-Day Sprint | Budget: ₹2,000')
 
 cards_s1 = [
     ('1. Who We Target (The ICP)', 
-     '• Final-year engineering students across CSE, IT, ECE, EEE, Mechanical & Civil.\n• Currently preparing for on-campus & off-campus placement drives.\n• Know syntax & Python basics, but lack credible, differentiated GenAI projects.\n• High friction: Confused by complex local setups, GPU drivers & paid API keys.',
+     '• Engineering students across CSE, IT, ECE, EEE, Mechanical & Civil (2027 Passing Out).\n• Currently preparing for upcoming on-campus & off-campus placement drives.\n• Know syntax & Python basics, but lack credible, differentiated GenAI projects.\n• High friction: Confused by complex local setups, GPU drivers & paid API keys.',
      CYAN),
     ('2. The Core Problem (The Reality)',
      '• The Resume Duplication Crisis: 90%+ of engineering resumes feature identical tutorial projects (Iris flower classification, Titanic predictor, Todo app).\n• Tech recruiters spend <15 seconds per resume; generic projects are instantly skipped.\n• Students are fatigued by theoretical webinars with zero portfolio output.',

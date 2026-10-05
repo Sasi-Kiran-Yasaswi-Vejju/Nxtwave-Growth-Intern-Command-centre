@@ -52,7 +52,7 @@ registrationRouter.post('/', (req: Request, res: Response): void => {
     }
 
     const uniqueCode = generateReferralCode(name);
-    const validGraduationYear = graduationYear ? Number(graduationYear) : 2025;
+    const validGraduationYear = graduationYear ? Number(graduationYear) : 2027;
     const finalSource = source || (referredBy ? 'Student Referral Engine' : 'College WhatsApp Communities');
 
     const created = store.addRegistration({

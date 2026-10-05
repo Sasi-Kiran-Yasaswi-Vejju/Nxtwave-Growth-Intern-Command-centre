@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({
             <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
           </span>
           <span className="text-xs font-semibold text-slate-300">
-            For Final-Year Engineering Students (Batch 2025/2026)
+            For Engineering Students (2027 Passing Out / Final Year)
           </span>
           <span className="text-xs bg-indigo-500/20 text-indigo-300 font-bold px-2 py-0.5 rounded-full border border-indigo-500/30">
             100% Free Live Workshop

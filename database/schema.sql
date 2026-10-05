@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS registrations (
     whatsapp VARCHAR(20),
     college VARCHAR(255) NOT NULL,
     branch VARCHAR(100) NOT NULL,
-    graduation_year INTEGER NOT NULL DEFAULT 2025,
+    graduation_year INTEGER NOT NULL DEFAULT 2027,
     source VARCHAR(100) NOT NULL DEFAULT 'Organic',
     referral_code VARCHAR(50) UNIQUE NOT NULL,
     referred_by VARCHAR(50) REFERENCES registrations(referral_code) ON DELETE SET NULL,

@@ -58,7 +58,7 @@ We built the **AI Workshop Growth Engine**, a multi-tiered acquisition platform 
 ---
 
 ## Target Audience
-- **Who**: Final-year engineering students (Batches 2025/2026 across CSE, IT, ECE, EEE, Mechanical, Civil) preparing for campus placement drives.
+- **Who**: Final-year engineering students (2027 Passing Out across CSE, IT, ECE, EEE, Mechanical, Civil) preparing for campus placement drives.
 - **Why They Care**:
   - The "Resume Duplication Crisis": Over 90% of resumes contain the exact same tutorial projects (Iris dataset, Titanic predictor, Todo list). Tech recruiters discard them within 15 seconds.
   - Students know Generative AI is vital for modern tech interviews, but lack guided implementation.

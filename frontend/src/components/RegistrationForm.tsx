@@ -22,7 +22,7 @@ export const RegistrationForm: React.FC<RegistrationFormProps> = ({
     whatsapp: '',
     college: '',
     branch: initialBranch || 'Computer Science & Engineering',
-    graduationYear: 2025,
+    graduationYear: 2027,
     referredBy: referralCodeFromUrl || ''
   });
 
@@ -204,9 +204,9 @@ export const RegistrationForm: React.FC<RegistrationFormProps> = ({
                   onChange={(e) => setFormData({ ...formData, graduationYear: Number(e.target.value) })}
                   className="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-slate-200 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                 >
-                  <option value={2025}>2025 (Final Year)</option>
-                  <option value={2026}>2026 (Pre-Final)</option>
-                  <option value={2024}>2024 (Recent Grad)</option>
+                  <option value={2027}>2027 (Passing Out / Final Year)</option>
+                  <option value={2028}>2028 (Pre-Final Year)</option>
+                  <option value={2026}>2026 (Recent Grad)</option>
                 </select>
               </div>
             </div>

@@ -2,7 +2,7 @@
 
 ## 1. Executive Strategy Summary
 - **Workshop Name**: "Build Your First AI Project in 60 Minutes"
-- **Target Audience**: 500 Final-Year Engineering Students (Batches 2025/2026 across CSE, IT, ECE, EEE, Mech, Civil)
+- **Target Audience**: 500 Final-Year Engineering Students (2027 Passing Out across CSE, IT, ECE, EEE, Mech, Civil)
 - **Primary Objective**: Acquire 500 qualified registrations within a 7-day sprint on a strict ₹2,000 budget.
 - **Operating Framework**: `IDEA → BUILD → LAUNCH → MEASURE → LEARN → SCALE`
 
@@ -52,7 +52,7 @@ A novice marketing approach assumes that ₹2,000 should be placed into Facebook
 - **Target**: Placement preparation groups, department unofficial groups, coding club chats across 35 engineering colleges.
 - **Message Architecture (Winning Variant B)**:
   ```
-  🚨 Final-Year Placement Alert (Batch 2025/2026)
+  🚨 Final-Year Placement Alert (2027 Passing Out)
 
   Recruiters spend <15 seconds on your resume. If you still have "Iris Dataset" or "Todo App", your resume gets skipped.
 
