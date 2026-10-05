@@ -1,0 +1,25 @@
+{
+  "name": "nxtwave-growth-challenge",
+  "version": "1.0.0",
+  "description": "NxtWave Growth Challenge - AI Workshop Growth Engine",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start": "npm --prefix backend run start",
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "keywords": [
+    "nxtwave",
+    "growth-hacking",
+    "ai-engine",
+    "referral-system",
+    "analytics"
+  ],
+  "author": "NxtWave Growth Intern Candidate",
+  "license": "MIT"
+}
