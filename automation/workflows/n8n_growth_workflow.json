@@ -1,0 +1,111 @@
+{
+  "name": "NxtWave AI Workshop Growth Engine - Automated Lead & Viral Notification Drip",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "nxtwave-registration-webhook",
+        "options": {}
+      },
+      "id": "node-webhook-1",
+      "name": "Registration Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "sheetId": "1NxtWaveGrowthLeadsTrackingSheet",
+        "range": "Registrations!A:H",
+        "options": {}
+      },
+      "id": "node-sheets-2",
+      "name": "Sync to Google Sheets CRM",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 2,
+      "position": [460, 200]
+    },
+    {
+      "parameters": {
+        "operation": "sendTemplate",
+        "phoneNumber": "={{$json[\"body\"][\"whatsapp\"]}}",
+        "templateName": "nxtwave_workshop_confirmation_v1",
+        "templateLanguage": "en",
+        "components": {
+          "body": [
+            "={{$json[\"body\"][\"name\"]}}",
+            "={{$json[\"body\"][\"referralCode\"]}}",
+            "={{$json[\"body\"][\"referralUrl\"]}}"
+          ]
+        }
+      },
+      "id": "node-whatsapp-3",
+      "name": "WhatsApp Confirmation & Viral Invite",
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [460, 400]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json[\"body\"][\"referralCount\"]}}",
+              "operation": "equal",
+              "value2": 3
+            }
+          ]
+        }
+      },
+      "id": "node-if-milestone-4",
+      "name": "Check 3-Referral Milestone",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [700, 400]
+    },
+    {
+      "parameters": {
+        "operation": "sendTemplate",
+        "phoneNumber": "={{$json[\"body\"][\"whatsapp\"]}}",
+        "templateName": "nxtwave_vip_github_reward",
+        "templateLanguage": "en",
+        "components": {
+          "body": [
+            "={{$json[\"body\"][\"name\"]}}"
+          ]
+        }
+      },
+      "id": "node-whatsapp-vip-5",
+      "name": "Send VIP GitHub Repo Reward",
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [940, 360]
+    }
+  ],
+  "connections": {
+    "Registration Webhook": {
+      "main": [
+        [
+          { "node": "Sync to Google Sheets CRM", "type": "main", "index": 0 },
+          { "node": "WhatsApp Confirmation & Viral Invite", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "WhatsApp Confirmation & Viral Invite": {
+      "main": [
+        [
+          { "node": "Check 3-Referral Milestone", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Check 3-Referral Milestone": {
+      "main": [
+        [
+          { "node": "Send VIP GitHub Repo Reward", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "settings": {}
+}
